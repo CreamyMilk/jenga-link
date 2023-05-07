@@ -19,7 +19,7 @@ go run backend/main.go
 ```
 
 
-# Fronted
+# Frontend
 Make with Nextjs
 - For UI stuff we used Material UI
 - For request stuff good all `fetch` was enough
