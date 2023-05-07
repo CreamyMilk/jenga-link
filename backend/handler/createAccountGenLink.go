@@ -111,7 +111,7 @@ func PayForProduct(c *fiber.Ctx) error {
 	if payMeRequest.Country != product.SourceCountry {
 
 		// TODO we freaking win
-		if product.SourceCountry  payMeRequest.Country == "KES" {
+		if product.SourceCountry != payMeRequest.Country {
 			payableAmount = product.Price / 10
 		} else {
 			payableAmount = product.Price
